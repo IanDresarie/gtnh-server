@@ -1,6 +1,6 @@
-FROM openjdk:8-jre
+FROM eclipse-temurin:21
 
-ARG modpackurl=http://downloads.gtnewhorizons.com/ServerPacks/GT_New_Horizons_2.2.0.0_SERVER.zip
+ARG modpackurl=https://downloads.gtnewhorizons.com/ServerPacks/GT_New_Horizons_2.6.1_Server_Java_17-21.zip
 
 RUN wget ${modpackurl}
 
